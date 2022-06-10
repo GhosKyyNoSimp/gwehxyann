@@ -1,0 +1,14 @@
+{
+  "wait": "_Wait a Minute!_",
+  "error": {
+    "Iv": "Berikan Link Yang Sesuai Dengan Command",
+    "api": "Sorry, This Feature Is Error"
+  },
+  "OnlyGrup": "Feature Only Group",
+  "OnlyPM": "Feature Only Private Message",
+  "GrupAdmin": "Feature Only Group Admin",
+  "BotAdmin": "Feature Only Bot Admin",
+  "OnlyOwner": "Feature Only Owner",
+  "OnlyPrem": "Feature Only Premium, Upgrade Premium Untuk Menggunakan Feature Ini",
+  "activeds": "This Feature Is Non Aktif"
+}
