@@ -499,7 +499,7 @@ DST.`
 			case 'runtime':
 			  addCountCmd('runtime', sender, _cmd)
 		let xynnnn = [
-		{ urlButton: : { displayText : 'Source Code' , url : 'https://github.com/rtwone' }},
+		{ urlButton: { displayText : 'Source Code' , url : 'https://github.com/rtwone' }},
 		{ callButton : { displayText : 'Call Owner' , phoneNumber : '0896-5338-1067' }},
 		]
 		conn.sendMessage(from, { caption: 'active in', templateButtons: xynnnn, footer: `${runtime(process.uptime())}`}, { quoted: msg } )
