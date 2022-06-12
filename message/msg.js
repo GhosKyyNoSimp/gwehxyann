@@ -513,7 +513,7 @@ DST.`
 break 
 case prefix+'sc':
 case prefix+'sourcecode':
-case 'sc'
+			case "sc":
 addCountCmd('source code', sender, _cmd)
 var escream = [ 
 { urlButton: { displayText: 'Sc Chitanda Bot', url:'https://github.com/rtwone'}},
