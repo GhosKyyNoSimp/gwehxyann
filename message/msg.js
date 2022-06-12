@@ -616,7 +616,7 @@ case 'tqto':
 			    break
 			    case prefix+'moderator': case 'moderator':
 
-			    addCountCmd('moderator', sender, _cmd)for (let xyyannnkyy of moderatorNumber) {
+			    for (let xyyannnkyy of moderatorNumber) {
 
 			      sendContact(from, xyyannkyy.split('@s.whatsapp.net')[0], 'moderator', msg)
 				}
