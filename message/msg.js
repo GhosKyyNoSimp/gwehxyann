@@ -1826,7 +1826,7 @@ case 'add':
             }
                  break
             case prefix+'buygamelimit':
-            case 'buygamelimit:
+            case 'buygamelimit':
             case 'buyglimit':
             case prefix+'buyglimit':{
                 if (args.length < 2) return reply(`Kirim perintah *${prefix}buyglimit* jumlah game limit yang ingin dibeli\n\nHarga 1 game limit = $150 balance\nPajak $1 / $10`)
