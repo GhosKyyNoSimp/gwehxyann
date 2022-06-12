@@ -609,9 +609,10 @@ case 'tqto':
   Note : Donasi Seikhlasnya`)
 			    break*/
 			case prefix+'owner': case 'owner':
-			    addCountCmd('owner', sender, _cmd)for (let x of ownerNumber) {
+			    for (let x of ownerNumber) {
 			      sendContact(from, x.split('@s.whatsapp.net')[0], 'Xyanndexx', msg)
 				}
+		
 			    break
 			    case prefix+'moderator': case 'moderator':
 
