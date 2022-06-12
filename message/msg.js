@@ -1555,7 +1555,7 @@ limitAdd(sender, limit)
 				reply(url)
 				break
 			case prefix+'setppgrup': case prefix+'setppgc':
-			case 'setppgrup
+			case 'setppgrup':
 			    if (!isGroup) return reply(mess.OnlyGrup)
 				if (!isGroupAdmins) return reply(mess.GrupAdmin)
 				if (!isBotGroupAdmins) return reply(mess.BotAdmin)
