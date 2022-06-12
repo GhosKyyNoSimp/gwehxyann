@@ -520,7 +520,7 @@ var escream = [
 { urlButton: { displayText: 'Sc Jojo Bot', url:'https://github.com/getsya'}},
 ]
 
-conn.sendMessage(from, { caption: `silahkan di pilih kak bebas yang mana saja\n\n*Note* : Thanks To ny Jangan Di hapus_^`, templateButtons: escream, footer`Ghos Bid`}, {quoted: msg})
+conn.sendMessage(from, { caption: `silahkan di pilih kak bebas yang mana saja\n\n*Note* : Thanks To ny Jangan Di hapus_^`, templateButtons: escream, footer:`Ghos Bid`}, {quoted: msg})
 break
 case prefix+'infobot':
   case prefix+'inforobot':
