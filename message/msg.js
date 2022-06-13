@@ -442,7 +442,7 @@ if (chats.startsWith("woy")){
 			case prefix+'help': 
 			  addCountCmd('menu', sender,_cmd)
 			    var teks = allmenu(sender, prefix, pushname, isOwner, isPremium, balance, limit, limitCount, glimit, gcount)
-  conn.sendMessage(from, { caption: teks, image : {url: fs.readFileSync('./media/yan.jpg')}, templateButtons: buttonmenu,footer: 'Ghos - Bid',mention: [sender]} )
+  conn.sendMessage(from, { caption: teks, image : {url: 'https://telegra.ph/file/2650f3061c6321025c68e.jpg'}, templateButtons: buttonmenu,footer: 'Ghos - Bid',mention: [sender]} )
 				break
 				
 case prefix+'donasiah':
