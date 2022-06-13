@@ -299,7 +299,6 @@ module.exports = async(conn, msg, m, setting, store) => {
 		  conn.modifyChat(from, 'delete')
 		}
         if (isBan) return
-        if (isBlock) return
 
         BannedExpired(ban)
         
