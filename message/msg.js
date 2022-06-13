@@ -64,7 +64,7 @@ moment.tz.setDefault("Asia/Jakarta").locale("id");
 
 module.exports = async(conn, msg, m, setting, store) => {
 	try {
-		let { ownerNumber, botName, gamewaktu, limitCount } = setting
+		let { ownerNumber, botName, moderatorNumber, gamewaktu, limitCount } = setting
 		let { allmenu } = require('./help')
 		const { type, quotedMsg, mentioned, now, fromMe } = msg
 		if (msg.isBaileys) return
